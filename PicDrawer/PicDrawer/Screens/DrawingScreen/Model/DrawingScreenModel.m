@@ -66,6 +66,7 @@
 //    }
 }
 
+
 -(void)getSectionImages:(int)section{
     [self getDistinctDatesStrings];
 //    NSMutableArray * returnedImages = [NSMutableArray new];
