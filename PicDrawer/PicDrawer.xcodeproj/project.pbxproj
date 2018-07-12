@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0E7CBD20F701860067A8D4 /* DrawingScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E7CBC20F701860067A8D4 /* DrawingScreenModel.m */; };
 		4D2E4F1C20F37AFE00623B3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E4F1B20F37AFE00623B3C /* AppDelegate.m */; };
-		4D2E4F1F20F37AFE00623B3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E4F1E20F37AFE00623B3C /* ViewController.m */; };
 		4D2E4F2220F37AFF00623B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E4F2020F37AFF00623B3C /* Main.storyboard */; };
 		4D2E4F2520F37AFF00623B3C /* PicDrawer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E4F2320F37AFF00623B3C /* PicDrawer.xcdatamodeld */; };
 		4D2E4F2720F37B0C00623B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E4F2620F37B0C00623B3C /* Assets.xcassets */; };
 		4D2E4F2A20F37B0C00623B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E4F2820F37B0C00623B3C /* LaunchScreen.storyboard */; };
 		4D2E4F2D20F37B0C00623B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E4F2C20F37B0C00623B3C /* main.m */; };
+		4D55C49920F4B32F00FECF7A /* DrawingScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55C49820F4B32F00FECF7A /* DrawingScreenViewController.m */; };
+		4D55C49D20F4B39000FECF7A /* HistroyScreenCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55C49C20F4B39000FECF7A /* HistroyScreenCollectionViewController.m */; };
+		4D55C4A220F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55C4A120F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.m */; };
+		4D55C4A520F51A9900FECF7A /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55C4A420F51A9900FECF7A /* SettingsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0E7CBB20F701860067A8D4 /* DrawingScreenModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingScreenModel.h; sourceTree = "<group>"; };
+		4D0E7CBC20F701860067A8D4 /* DrawingScreenModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingScreenModel.m; sourceTree = "<group>"; };
 		4D2E4F1720F37AFE00623B3C /* PicDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2E4F1A20F37AFE00623B3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D2E4F1B20F37AFE00623B3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D2E4F1D20F37AFE00623B3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4D2E4F1E20F37AFE00623B3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D2E4F2120F37AFF00623B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D2E4F2420F37AFF00623B3C /* PicDrawer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PicDrawer.xcdatamodel; sourceTree = "<group>"; };
 		4D2E4F2620F37B0C00623B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2E4F2920F37B0C00623B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2E4F2B20F37B0C00623B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2E4F2C20F37B0C00623B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D55C49720F4B32F00FECF7A /* DrawingScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingScreenViewController.h; sourceTree = "<group>"; };
+		4D55C49820F4B32F00FECF7A /* DrawingScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingScreenViewController.m; sourceTree = "<group>"; };
+		4D55C49B20F4B39000FECF7A /* HistroyScreenCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistroyScreenCollectionViewController.h; sourceTree = "<group>"; };
+		4D55C49C20F4B39000FECF7A /* HistroyScreenCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistroyScreenCollectionViewController.m; sourceTree = "<group>"; };
+		4D55C4A020F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.h"; sourceTree = "<group>"; };
+		4D55C4A120F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.m"; sourceTree = "<group>"; };
+		4D55C4A320F51A9900FECF7A /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		4D55C4A420F51A9900FECF7A /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0E7CBA20F7011B0067A8D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D0E7CBB20F701860067A8D4 /* DrawingScreenModel.h */,
+				4D0E7CBC20F701860067A8D4 /* DrawingScreenModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4D2E4F0E20F37AFE00623B3C = {
 			isa = PBXGroup;
 			children = (
@@ -60,18 +81,97 @@
 		4D2E4F1920F37AFE00623B3C /* PicDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				4D2E4F2B20F37B0C00623B3C /* Info.plist */,
+				4D55C49320F4B24F00FECF7A /* SupportingFiles */,
+				4D55C49220F4B20C00FECF7A /* Screens */,
+				4D55C49120F4B1DE00FECF7A /* Storyboards */,
+			);
+			path = PicDrawer;
+			sourceTree = "<group>";
+		};
+		4D55C49120F4B1DE00FECF7A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E4F2020F37AFF00623B3C /* Main.storyboard */,
+				4D2E4F2820F37B0C00623B3C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4D55C49220F4B20C00FECF7A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4D55C49E20F4B39C00FECF7A /* SettingsScreen */,
+				4D55C49420F4B29B00FECF7A /* DrawingScreen */,
+				4D55C49520F4B2BE00FECF7A /* HistoryScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4D55C49320F4B24F00FECF7A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				4D2E4F1A20F37AFE00623B3C /* AppDelegate.h */,
 				4D2E4F1B20F37AFE00623B3C /* AppDelegate.m */,
-				4D2E4F1D20F37AFE00623B3C /* ViewController.h */,
-				4D2E4F1E20F37AFE00623B3C /* ViewController.m */,
-				4D2E4F2020F37AFF00623B3C /* Main.storyboard */,
 				4D2E4F2620F37B0C00623B3C /* Assets.xcassets */,
-				4D2E4F2820F37B0C00623B3C /* LaunchScreen.storyboard */,
-				4D2E4F2B20F37B0C00623B3C /* Info.plist */,
 				4D2E4F2C20F37B0C00623B3C /* main.m */,
 				4D2E4F2320F37AFF00623B3C /* PicDrawer.xcdatamodeld */,
 			);
-			path = PicDrawer;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4D55C49420F4B29B00FECF7A /* DrawingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4D0E7CBA20F7011B0067A8D4 /* Model */,
+				4D55C49620F4B2D100FECF7A /* ViewControllers */,
+			);
+			path = DrawingScreen;
+			sourceTree = "<group>";
+		};
+		4D55C49520F4B2BE00FECF7A /* HistoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4D55C49A20F4B34B00FECF7A /* ViewControllers */,
+			);
+			path = HistoryScreen;
+			sourceTree = "<group>";
+		};
+		4D55C49620F4B2D100FECF7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D55C49720F4B32F00FECF7A /* DrawingScreenViewController.h */,
+				4D55C49820F4B32F00FECF7A /* DrawingScreenViewController.m */,
+				4D55C4A020F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.h */,
+				4D55C4A120F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D55C49A20F4B34B00FECF7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D55C49B20F4B39000FECF7A /* HistroyScreenCollectionViewController.h */,
+				4D55C49C20F4B39000FECF7A /* HistroyScreenCollectionViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D55C49E20F4B39C00FECF7A /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4D55C49F20F4B3B500FECF7A /* ViewControllers */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		4D55C49F20F4B3B500FECF7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D55C4A320F51A9900FECF7A /* SettingsTableViewController.h */,
+				4D55C4A420F51A9900FECF7A /* SettingsTableViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2E4F1F20F37AFE00623B3C /* ViewController.m in Sources */,
+				4D55C4A520F51A9900FECF7A /* SettingsTableViewController.m in Sources */,
 				4D2E4F1C20F37AFE00623B3C /* AppDelegate.m in Sources */,
 				4D2E4F2D20F37B0C00623B3C /* main.m in Sources */,
 				4D2E4F2520F37AFF00623B3C /* PicDrawer.xcdatamodeld in Sources */,
+				4D0E7CBD20F701860067A8D4 /* DrawingScreenModel.m in Sources */,
+				4D55C4A220F4B62F00FECF7A /* DrawingScreenViewController+DrawingScreenViewController_TouchFunctions.m in Sources */,
+				4D55C49920F4B32F00FECF7A /* DrawingScreenViewController.m in Sources */,
+				4D55C49D20F4B39000FECF7A /* HistroyScreenCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
